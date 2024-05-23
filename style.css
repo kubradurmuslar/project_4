@@ -1,0 +1,142 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    color: #333;
+    text-align: center;
+}
+
+h1 {
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 50px;
+    color: beige !important;
+}
+
+h2 {
+    color:#91498e !important;
+    font-style: italic;
+
+}
+
+p {
+    font-style: italic;
+}
+
+iframe {
+    border-radius: 1.5rem;
+}
+
+.counter-section {
+    margin: 40px 0;
+}
+
+.counter-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.counter-section button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #6b2a5c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.counter-section button:hover {
+    background-color: #91498e;
+}
+
+
+
+.music-section h2,
+.resources-section h2 {
+    margin-top: 0;
+}
+
+.music-section iframe {
+    width: 50%;
+    height: 150px;
+    margin: 10px 0;
+    border: none;
+}
+
+
+img {
+    width: 70%;
+    padding-right: 3rem;
+    padding-top: 5rem;
+    margin-left: 10rem;
+}
+
+.img {
+    width: 70%;
+    padding-left: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    padding-bottom: 2rem;
+
+}
+
+a:link {
+    text-decoration: none;
+    background: -webkit-linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-color: #4158D0;
+}
+
+a:visited {
+    text-decoration: none;
+    
+    
+}
+
+ul li::marker {
+    color:#91498e;
+   
+}
+
+ul li {
+    padding: 5px;
+}
+
+
+
+
+span {
+    font-weight: bold;
+    font-style: italic;
+    color: #6b2a5c;
+}
+
+#order {
+    padding-top: 5rem;
+}
+
+.card-header {
+    color: #91498e !important;
+}
+
+.card {
+    width: 100%;
+    height: auto !important;
+}
+
+footer {
+    
+    margin: 1rem 0;
+    
+}
+
+.music-section iframe {
+    width: 100%;
+}
+
